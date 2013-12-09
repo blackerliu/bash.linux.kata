@@ -1,0 +1,16 @@
+# magic	version	count tables  current_os
+
+33221100  00030201      9       3
+
+# tables:
+# NAME[11] file_type storage_type  location  	entry 	     partition_size  size
+
+U_BOOT	     RAW        NAND	   00000000		00000000     000e0000       00060000
+TABLES	     RAW        NAND       000e0000		000e0000     00020000       00000800
+USBSHELL     OS_LINUX   NAND       00100000     00100000     00400000       00400000
+USERDATA     RAW        NAND       00500000     00500000     00400000       00400000
+RESV         RAW        NAND       00900000     00900000     00300000       00300000
+KERNEL	     OS_LINUX   NAND 	   00c00000		00c00000     00400000       00300000
+ROOTFS	     RAW        NAND	   01000000		01000000     0f000000       01000000
+LOADER       RAW        SPI        00000000     00000000     00100000       00100000
+ULTRAS	     OS_ECOS    SPI	   	   00100000		00120000     00300000       00300000
